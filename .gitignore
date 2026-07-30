@@ -50,3 +50,7 @@ fp-info-cache
 manufacturing/
 gerber_files/
 *.zip
+
+# Other Kicad settings and plugins related data
+**/database/
+**/nextpcb/
