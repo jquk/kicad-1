@@ -777,9 +777,9 @@
 		)
 		(uuid "b87a35d7-bc3b-4c47-bb60-ba32e45ba0cb")
 	)
-	(text "A simple LED Torch circuit"
+	(text "A simple LED Torch circuit, using a coin cell battery holder."
 		(exclude_from_sim no)
-		(at 100.33 64.77 0)
+		(at 117.475 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -930,12 +930,12 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 160.655 81.915 90)
+			(at 131.445 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.5 0.5)
 				)
 			)
 		)
@@ -1008,12 +1008,12 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 112.395 80.645 0)
+			(at 109.22 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.5 0.5)
 				)
 			)
 		)
@@ -1097,12 +1097,12 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 167.64 78.105 0)
+			(at 148.59 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.5 0.5)
 				)
 			)
 		)
@@ -1186,7 +1186,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.5 0.5)
 				)
 			)
 		)
