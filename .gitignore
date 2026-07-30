@@ -48,3 +48,4 @@ fp-info-cache
 *.drl
 *.xln
 gerber_files/
+*.zip
