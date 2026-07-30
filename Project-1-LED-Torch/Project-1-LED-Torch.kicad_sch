@@ -765,6 +765,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 87.63 66.04)
+		(end 194.945 102.235)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b87a35d7-bc3b-4c47-bb60-ba32e45ba0cb")
+	)
+	(text "A simple LED Torch circuit"
+		(exclude_from_sim no)
+		(at 100.33 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://jupitersw.com")
+		)
+		(uuid "a2f49cc2-f9ec-4dfb-9938-bf1091bedcf2")
+	)
 	(wire
 		(pts
 			(xy 134.62 76.2) (xy 143.51 76.2)
@@ -885,7 +908,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04bd890e-8ede-4816-89aa-94e7381a83fb")
 		(property "Reference" "R1"
 			(at 130.81 69.85 90)
@@ -908,8 +930,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 130.81 77.978 90)
-			(hide yes)
+			(at 160.655 81.915 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -965,7 +986,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63f581e6-e4c1-4aed-9a31-fbb30b60e599")
 		(property "Reference" "D1"
 			(at 107.6325 69.85 0)
@@ -988,8 +1008,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 109.22 76.2 0)
-			(hide yes)
+			(at 112.395 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1056,7 +1075,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ebcc10d-d340-4c31-a8de-db51e5fe1cc6")
 		(property "Reference" "SW1"
 			(at 148.59 69.85 0)
@@ -1079,8 +1097,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 148.59 76.2 0)
-			(hide yes)
+			(at 167.64 78.105 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1142,7 +1159,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8580310b-31ed-4067-a1a5-aa5ec67d85bf")
 		(property "Reference" "BT1"
 			(at 132.6515 87.63 90)
@@ -1165,8 +1181,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
-			(at 132.334 95.25 90)
-			(hide yes)
+			(at 130.81 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
