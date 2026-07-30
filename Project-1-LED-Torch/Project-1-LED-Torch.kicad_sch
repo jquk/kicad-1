@@ -765,6 +765,86 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9ff373-a97c-4f67-a267-b89d5075329a")
+	)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5005086e-df45-4f54-af51-1c39920e55fc")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777e3785-ca55-44ba-9197-e62f338903f8")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd1dae3-1866-4b52-86aa-6ec4d993ca69")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ff00ef-7cf6-4605-80d0-1aea9f4d87ec")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacd5c56-310c-408e-8344-7fcb5117f813")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad44d707-a975-429f-99c4-15761cf894fe")
+	)
+	(wire
+		(pts
+			(xy 135.89 95.25) (xy 160.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49f8da8-a81d-4b6a-ad99-8a6f6c7cdb6b")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 130.81 76.2 90)
