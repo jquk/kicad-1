@@ -797,7 +797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -877,7 +877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -968,7 +968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
 			(at 148.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1054,7 +1054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
 			(at 132.334 95.25 90)
 			(hide yes)
 			(show_name no)
