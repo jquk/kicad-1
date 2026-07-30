@@ -781,7 +781,7 @@
 	(footprint "Battery:BatteryHolder_Keystone_1058_1x2032"
 		(layer "F.Cu")
 		(uuid "7ca3e8e5-3cfc-492a-b171-329ac03533d1")
-		(at 138.975 79.32397)
+		(at 138.975 74.5)
 		(descr "http://www.keyelco.com/product-pdf.cfm?p=14028")
 		(tags "Keystone type 1058 coin cell retainer")
 		(property "Reference" "BT1"
