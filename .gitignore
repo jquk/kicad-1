@@ -47,3 +47,4 @@ fp-info-cache
 *.gbrjob
 *.drl
 *.xln
+gerber_files/
