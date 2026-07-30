@@ -845,6 +845,36 @@
 		)
 		(uuid "d49f8da8-a81d-4b6a-ad99-8a6f6c7cdb6b")
 	)
+	(label "Battery_positive"
+		(at 140.97 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02dca47f-3682-4abb-9fed-54c613d70a4f")
+	)
+	(label "LED_cathode"
+		(at 104.14 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8197fad7-1565-4990-8c2b-1bba4aa5dfdb")
+	)
+	(label "LED_anode"
+		(at 114.3 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fef2ddc6-731d-452e-b11e-b56f0c014273")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 130.81 76.2 90)
