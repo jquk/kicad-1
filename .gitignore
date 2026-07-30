@@ -47,5 +47,6 @@ fp-info-cache
 *.gbrjob
 *.drl
 *.xln
+manufacturing/
 gerber_files/
 *.zip
