@@ -90,7 +90,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber files for LED Torch/")
+			(outputdirectory "gerber_files")
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm"
