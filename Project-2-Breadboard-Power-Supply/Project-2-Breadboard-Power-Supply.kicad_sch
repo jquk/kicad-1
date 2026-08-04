@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f916137a-11b8-4c0d-93f9-abbb510b96b9")
+	(paper "A4")
+	(title_block
+		(title "Power supply for a breadboard")
+		(date "2026-07-30")
+		(rev "1")
+		(company "jupitersw.com")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
