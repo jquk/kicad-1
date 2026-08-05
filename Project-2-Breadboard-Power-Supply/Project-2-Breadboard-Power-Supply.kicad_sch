@@ -2146,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "560"
 			(at 161.29 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,6 +2181,26 @@
 		(property "Description" "Resistor"
 			(at 161.29 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,7 +2247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 134.62 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,6 +2283,26 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 130.81 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 130.81 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 130.81 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2744,7 +2784,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 130.81 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,6 +2819,26 @@
 		(property "Description" "Resistor"
 			(at 130.81 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 130.81 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 130.81 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2824,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 147.32 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,6 +2919,26 @@
 		(property "Description" "Resistor"
 			(at 147.32 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 147.32 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2988,7 +3068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 151.13 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,6 +3104,26 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 147.32 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 147.32 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3154,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 165.1 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,6 +3290,26 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 161.29 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
