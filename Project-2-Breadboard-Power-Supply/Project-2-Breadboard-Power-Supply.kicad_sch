@@ -2218,10 +2218,10 @@
 		(uuid "dbd77d4d-7dfe-42aa-9aeb-56598894c640")
 	)
 	(junction
-		(at 163.195 97.79)
+		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "111d3966-bc21-40b8-9394-5ddbea2414ec")
+		(uuid "2946c308-4105-4356-889e-b675c1feb7d9")
 	)
 	(junction
 		(at 115.57 93.98)
@@ -2260,12 +2260,6 @@
 		(uuid "45e195c7-be46-497c-98d2-f056ef1d3081")
 	)
 	(junction
-		(at 161.925 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dc0f367-a3cd-4bda-ad0b-489b67eea3eb")
-	)
-	(junction
 		(at 115.57 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2294,6 +2288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "971569b8-1f40-4a11-8f35-61bcf16a9a8d")
+	)
+	(junction
+		(at 161.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d10af3b2-903d-4d47-b480-7ad642599df8")
 	)
 	(junction
 		(at 76.2 77.47)
@@ -2339,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 63.5) (xy 171.45 63.5)
+			(xy 161.29 63.5) (xy 171.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2376,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "10f413e7-4248-49eb-891f-4d7252e9ba6c")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1292afdd-ed56-4dea-8937-8b364bccdd91")
 	)
 	(wire
 		(pts
@@ -2439,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 48.26) (xy 161.925 63.5)
+			(xy 161.29 48.26) (xy 161.29 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 36.83) (xy 161.925 48.26)
+			(xy 161.29 36.83) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 36.83) (xy 161.925 36.83)
+			(xy 171.45 36.83) (xy 161.29 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2699,26 +2709,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 97.79) (xy 172.72 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd4738b-c8ad-4877-8c1c-86d03b7b8eff")
-	)
-	(wire
-		(pts
-			(xy 161.925 48.26) (xy 171.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0235a24-3b38-4ca3-89cb-568ef7cb5df6")
-	)
-	(wire
-		(pts
 			(xy 50.8 43.18) (xy 50.8 50.8)
 		)
 		(stroke
@@ -2729,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 106.68) (xy 163.195 97.79)
+			(xy 162.56 106.68) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 88.9) (xy 163.195 97.79)
+			(xy 162.56 88.9) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2806,6 +2796,16 @@
 			(type default)
 		)
 		(uuid "d328c68a-70e7-4807-9350-070d7c9f3b80")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4605c30-b4da-42c5-98ae-ba5ffd4a5584")
 	)
 	(wire
 		(pts
@@ -2869,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 163.195 106.68)
+			(xy 172.72 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 163.195 88.9)
+			(xy 172.72 88.9) (xy 162.56 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2897,8 +2897,57 @@
 		)
 		(uuid "fe63261a-f9bf-48cb-afef-7cf40fa2c208")
 	)
+	(label "12V_net"
+		(at 74.93 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ee1dbb1-8506-495e-9c8b-9b2b44dba011")
+		(property "Netclass" "power_input"
+			(at 74.93 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "PWR_output"
+		(at 161.29 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25e5e54d-5332-40c7-8990-6b835d12a7a8")
+		(property "Netclass" "power_output"
+			(at 161.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "3v3_net"
 		(at 135.89 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,19 +2955,23 @@
 			(justify left bottom)
 		)
 		(uuid "460372d2-d01b-4a8f-9320-3f76b2f6d7bf")
-	)
-	(label "12V_net"
-		(at 76.2 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Netclass" "power_output"
+			(at 135.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "4629eae9-54c9-4107-8dd1-4eb2f86f8674")
 	)
 	(label "3v3_net"
 		(at 172.72 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2926,6 +2979,19 @@
 			(justify right bottom)
 		)
 		(uuid "52a0fb39-0757-4117-ba75-dac33a2188d3")
+		(property "Netclass" "power_output"
+			(at 172.72 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "3v3_net"
 		(at 171.45 39.37 180)
@@ -2936,9 +3002,46 @@
 			(justify right bottom)
 		)
 		(uuid "7b4442fe-87bc-4c8b-9a7c-b304adb3de49")
+		(property "Netclass" "power_output"
+			(at 171.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(label "PWR_input"
+		(at 48.26 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "962c7ecb-f5a2-42cf-9d63-6c5cb23f89aa")
+		(property "Netclass" "power_input"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "5V_net"
 		(at 172.72 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2946,9 +3049,23 @@
 			(justify right bottom)
 		)
 		(uuid "b03c82b2-0594-44dd-8f04-832b169af65f")
+		(property "Netclass" "power_output"
+			(at 172.72 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "12V_net"
 		(at 55.88 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2956,9 +3073,23 @@
 			(justify left bottom)
 		)
 		(uuid "cc12180f-9724-408e-9801-8b36ead5bd89")
+		(property "Netclass" "power_input"
+			(at 55.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "5V_net"
 		(at 171.45 34.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,6 +3097,43 @@
 			(justify right bottom)
 		)
 		(uuid "df00d316-b4e8-4f2b-bc27-cbafa44959a4")
+		(property "Netclass" "power_output"
+			(at 171.45 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "PWR_output"
+		(at 162.56 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1e927b5-012a-4b29-a8f1-2ce3ef6cea98")
+		(property "Netclass" "power_output"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "5V_net"
 		(at 128.27 35.56 0)
@@ -2976,6 +3144,18 @@
 			(justify left bottom)
 		)
 		(uuid "f0e27c72-8bed-4754-9e47-182fc47af239")
+		(property "Netclass" "power_output"
+			(at 128.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
