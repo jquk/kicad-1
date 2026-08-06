@@ -2187,6 +2187,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Voltage regulator requires the ground pin to be connected to a properly flaged net (DRC compliance)."
+		(exclude_from_sim no)
+		(at 111.125 52.705 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+		(uuid "94a8ebf2-7618-4f99-abb1-4f4945ce8c8d")
+	)
 	(junction
 		(at 50.8 43.18)
 		(diameter 0)
@@ -2200,12 +2210,6 @@
 		(uuid "38d6984e-639c-4d22-a1e7-6ad2ca9541fd")
 	)
 	(junction
-		(at 62.23 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4526c024-4c35-41ae-b311-799ef728bfd2")
-	)
-	(junction
 		(at 83.82 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2216,6 +2220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "971569b8-1f40-4a11-8f35-61bcf16a9a8d")
+	)
+	(junction
+		(at 96.52 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e22da399-e1c7-4d32-ac0b-43eea7bee736")
 	)
 	(no_connect
 		(at 69.85 40.64)
@@ -2233,16 +2243,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 83.82 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1666e9a7-725d-4429-bd38-f4b66f5e18bc")
-	)
-	(wire
-		(pts
 			(xy 45.72 43.18) (xy 50.8 43.18)
 		)
 		(stroke
@@ -2253,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 62.23 54.61)
+			(xy 96.52 50.8) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 62.23 50.8)
+			(xy 50.8 50.8) (xy 96.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2323,16 +2323,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 106.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7716d461-4c5a-46d0-88e6-03efa6ef9269")
-	)
-	(wire
-		(pts
 			(xy 83.82 35.56) (xy 99.06 35.56)
 		)
 		(stroke
@@ -2340,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "818d31db-8bc3-49a6-a1b2-baeedb9efc1c")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db13845-d297-430e-ae52-60b5ebcc57b7")
 	)
 	(wire
 		(pts
@@ -2410,6 +2410,26 @@
 			(type default)
 		)
 		(uuid "fe63261a-f9bf-48cb-afef-7cf40fa2c208")
+	)
+	(label "5V_net"
+		(at 120.65 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d8efbf9-3f64-4f34-9d52-80bf09fafbcd")
+	)
+	(label "12V_net"
+		(at 76.2 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4629eae9-54c9-4107-8dd1-4eb2f86f8674")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
@@ -3610,7 +3630,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 54.61 180)
+		(at 96.52 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3621,7 +3641,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3b7ff20-e56d-47e1-b41e-7cd541eed09f")
 		(property "Reference" "#FLG01"
-			(at 62.23 56.515 0)
+			(at 96.52 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3632,7 +3652,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 59.69 0)
+			(at 96.52 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3642,7 +3662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 54.61 0)
+			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 54.61 0)
+			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,7 +3684,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 54.61 0)
+			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
