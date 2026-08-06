@@ -1956,6 +1956,319 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 50.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35be9179-7bf2-44c1-9bd2-39f3a50f3432")
+	)
+	(junction
+		(at 106.68 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d6984e-639c-4d22-a1e7-6ad2ca9541fd")
+	)
+	(junction
+		(at 83.82 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6693c2c6-1857-45b4-ba2b-791d9a346e00")
+	)
+	(junction
+		(at 83.82 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971569b8-1f40-4a11-8f35-61bcf16a9a8d")
+	)
+	(no_connect
+		(at 69.85 40.64)
+		(uuid "50b3ecef-c551-48a7-9f29-e43208d3e82a")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcdc054-d3c9-4489-86e3-0f334b457a24")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e72f4b1-d3c5-4d3d-bd99-9d56259c175d")
+	)
+	(wire
+		(pts
+			(xy 106.68 43.18) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4159be4e-6732-4f72-afed-4a5e43d9a217")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544a20e0-2bec-41df-9cd3-c4372e2196df")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559be5a1-8569-4338-93d6-69536bdd6441")
+	)
+	(wire
+		(pts
+			(xy 83.82 35.56) (xy 83.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d68500-d530-4c52-8d83-8cbe3ba0d175")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdef390-2f1a-4205-a3d6-3a40e1e59812")
+	)
+	(wire
+		(pts
+			(xy 127 35.56) (xy 127 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7e9962-4054-43a4-816a-a7897ee47413")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7716d461-4c5a-46d0-88e6-03efa6ef9269")
+	)
+	(wire
+		(pts
+			(xy 83.82 35.56) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818d31db-8bc3-49a6-a1b2-baeedb9efc1c")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954e28f2-6b98-4cb0-9e4a-1876f94949a1")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4986629-9391-4886-ae61-1d1f3326d835")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f4bfe2-b988-4563-aa5a-4d3bd3467213")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d328c68a-70e7-4807-9350-070d7c9f3b80")
+	)
+	(wire
+		(pts
+			(xy 127 46.99) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0df53b5-ff7c-4600-9227-3e92d3e76629")
+	)
+	(wire
+		(pts
+			(xy 83.82 46.99) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b93c5d-7b17-4423-ba95-548bd8d72d69")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe63261a-f9bf-48cb-afef-7cf40fa2c208")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
@@ -2312,7 +2625,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 38.1 0)
+		(at 83.82 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2323,7 +2636,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ed040f3-758b-4303-a4ba-0f867358203e")
 		(property "Reference" "C1"
-			(at 87.63 36.8299 0)
+			(at 87.63 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2334,7 +2647,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 87.63 39.3699 0)
+			(at 87.63 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2345,7 +2658,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 84.7852 41.91 0)
+			(at 84.7852 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 38.1 0)
+			(at 83.82 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2680,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 38.1 0)
+			(at 83.82 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,7 +2691,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 83.82 38.1 0)
+			(at 83.82 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2388,7 +2701,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 83.82 38.1 0)
+			(at 83.82 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2791,6 +3104,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bd80068-ac89-4e17-8277-8de336f36f57")
+		(property "Reference" "#PWR01"
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d0052b0-fced-4964-9516-b8f02a400bc9")
+		)
+		(instances
+			(project "Project-2-Breadboard-Power-Supply"
+				(path "/f916137a-11b8-4c0d-93f9-abbb510b96b9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 177.8 116.84 180)
 		(unit 1)
@@ -3163,7 +3554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 38.1 0)
+		(at 127 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3174,7 +3565,7 @@
 		(fields_autoplaced yes)
 		(uuid "d08eb6ed-1276-4f18-99bd-eb2517d00c3c")
 		(property "Reference" "C2"
-			(at 130.81 36.8299 0)
+			(at 130.81 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3185,7 +3576,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 130.81 39.3699 0)
+			(at 130.81 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3196,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 127.9652 41.91 0)
+			(at 127.9652 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 38.1 0)
+			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3609,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 38.1 0)
+			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3620,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 127 38.1 0)
+			(at 127 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3239,7 +3630,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 127 38.1 0)
+			(at 127 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3265,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 106.68 38.1 0)
+		(at 106.68 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3276,7 +3667,7 @@
 		(fields_autoplaced yes)
 		(uuid "d362d749-7832-456f-877d-06d041bdb427")
 		(property "Reference" "U1"
-			(at 106.68 31.75 0)
+			(at 106.68 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3286,7 +3677,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 106.68 34.29 0)
+			(at 106.68 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3296,7 +3687,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 106.68 32.385 0)
+			(at 106.68 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 106.68 39.37 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +3710,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 106.68 38.1 0)
+			(at 106.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
