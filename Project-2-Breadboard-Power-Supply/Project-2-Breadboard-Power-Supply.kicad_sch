@@ -3849,7 +3849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Switch_Slide_11.6x4mm_EG1218"
+		(property "Footprint" "Custom_Library_0.pretty:SW_1218_EWI"
 			(at 69.85 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3990,6 +3990,16 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+			)
+		)
+		(property "Purpose" ""
+			(at 64.77 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

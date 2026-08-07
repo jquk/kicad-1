@@ -1,4 +1,7 @@
 (design_block_lib_table
 	(version 7)
 	(lib (name "TerminalBlock.pretty") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/TerminalBlock.pretty") (options "") (descr ""))
+	(lib (name "digikey-footprints.pretty") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/digikey-kicad-library-master/digikey-footprints.pretty") (options "") (descr ""))
+	(lib (name "Source_Footprints") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/digikey-kicad-library-master/src/Source_Footprints") (options "") (descr ""))
+	(lib (name "Custom_Library_0.pretty") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/Custom_Library_0/Custom_Library_0.pretty") (options "") (descr ""))
 )
