@@ -1093,13 +1093,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2abca0e1-8ef7-481b-9d33-eaec5d8e1e70")
-		(at 32.21 95.5 90)
+		(at 33.96 95.5 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.38 90)
+			(at 0 7.79 90)
 			(layer "F.SilkS")
-			(uuid "4801283a-27f5-4656-b567-fe02beed6a09")
+			(uuid "f2943e70-c991-4df4-8af7-ae3f0dfca028")
 			(effects
 				(font
 					(size 1 1)
@@ -1110,7 +1110,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.46 90)
 			(layer "F.Fab")
-			(uuid "7828abf4-0e95-47ff-98f8-de1d818597af")
+			(uuid "3085d0aa-feec-413d-b722-ef7cb48a0033")
 			(effects
 				(font
 					(size 1 1)
@@ -1122,7 +1122,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4670da48-7d91-4107-9d30-5f1b66e31447")
+			(uuid "4483279e-75f8-4298-b6bd-d4a8a9a95331")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1133,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9beb59c9-ad0f-4387-8044-7a3c2cdb1c59")
+			(uuid "868fdcb2-8aa2-49f8-afd8-727ba14e28e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "2d0d2811-3fce-4ab1-be4c-0fc231396bad")
-		(at 32.75 54.5)
+		(at 31.49 54.5)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C2"
@@ -1835,13 +1835,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "46cfeab3-b92c-4546-8db4-0a4c7bb223f4")
-		(at 32.21 47.75 90)
+		(at 33.96 47.75 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.38 90)
+			(at 0 7.79 90)
 			(layer "F.SilkS")
-			(uuid "df660850-bc3f-4bd7-837b-df4d722fd2d3")
+			(uuid "88f742b7-c530-4226-ab51-2e207fd259d7")
 			(effects
 				(font
 					(size 1 1)
@@ -1852,7 +1852,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.46 90)
 			(layer "F.Fab")
-			(uuid "7e91f87a-ea82-4036-ae15-a23a73935f47")
+			(uuid "d6dd4db5-153f-44a1-9707-fc40fd3cd6ca")
 			(effects
 				(font
 					(size 1 1)
@@ -1864,7 +1864,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6970a476-d0c8-4d8d-9fce-d55a6971c642")
+			(uuid "63aefdb8-0638-4a1e-9d8f-6e6dff6eda79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb92545b-12b4-483f-8d24-ece2f7f2ef49")
+			(uuid "6814f2ea-8c02-4de2-b855-a4535c12b3a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.38 0)
+			(at -2.9 1.2 0)
 			(layer "F.SilkS")
 			(uuid "1a564674-084c-41be-9ad9-0a2cfb6a6932")
 			(effects
@@ -2913,7 +2913,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "79dba891-e7a6-4b27-9359-b96601900d38")
-		(at 40.75 89.5 180)
+		(at 39.75 89.5 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C3"
@@ -3317,7 +3317,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "a2b79504-3972-494a-9b71-aca9a7427066")
-		(at 34.42 83.7)
+		(at 33.15 83.7)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U2"
@@ -3575,9 +3575,9 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.38 0)
+			(at -2.9 1.25 0)
 			(layer "F.SilkS")
-			(uuid "353fa6cf-8e89-4745-a2d2-a7b0a18bd5ee")
+			(uuid "0eafa675-ea71-4a48-b9fd-adbb92c97dc1")
 			(effects
 				(font
 					(size 1 1)
@@ -3588,7 +3588,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.92 0)
 			(layer "F.Fab")
-			(uuid "1aa8a866-91cb-4ad4-a153-796131e0f6f6")
+			(uuid "625f8a37-f847-4425-ae5c-036dd2f93692")
 			(effects
 				(font
 					(size 1 1)
@@ -3600,7 +3600,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7efc63c0-49ca-4f87-8e22-d86ae08121a9")
+			(uuid "4776ada8-853c-4515-b7e3-18d2af1feea0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3611,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f399788-8b3f-4bfa-a9e3-205ceaf4082c")
+			(uuid "49510f8f-b81a-495e-8a44-ab7e96448bfa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 	(footprint "Connector_BarrelJack:BarrelJack_Horizontal"
 		(layer "F.Cu")
 		(uuid "abdbc2f0-346d-4ffe-a549-c8d17c126974")
-		(at 43.5 72)
+		(at 44.25 72)
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
 		(property "Reference" "J6"
@@ -4269,13 +4269,13 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "eb30b03b-713a-48ae-a419-732700b18c05")
-		(at 41 54.5 180)
+		(at 39.75 54.5 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C1"
 			(at 1.3 2 0)
 			(layer "F.SilkS")
-			(uuid "f71390fc-e6ad-485c-96f5-2bc3acdd8ed5")
+			(uuid "bdaf9c7b-eb1c-4974-94ca-3ceed15c34b7")
 			(effects
 				(font
 					(size 1 1)
@@ -4286,7 +4286,7 @@
 		(property "Value" "10u"
 			(at 1.25 2.05 0)
 			(layer "F.Fab")
-			(uuid "2198384a-92d5-4d39-b693-4cfbe3af9c89")
+			(uuid "e74d9697-8e5c-4d9f-a341-beafd5226564")
 			(effects
 				(font
 					(size 1 1)
@@ -4298,7 +4298,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35c3ac68-136a-4e63-9c98-4682abdba66e")
+			(uuid "24c81f7e-033a-49f2-90da-6a35249a6b6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4309,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e40def41-25c8-4dca-b655-869426629697")
+			(uuid "2e40139a-226d-4b5c-b7b7-b61e5b79057d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,13 +4455,13 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "fdf8d393-e63a-45e5-b067-30b91d9a4b45")
-		(at 39.5 60.5 180)
+		(at 38.23 60.5 180)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U1"
 			(at 2.54 -4.1 0)
 			(layer "F.SilkS")
-			(uuid "cd2648a3-cf06-4574-b991-fd87b080e7c9")
+			(uuid "aeafb674-2cf9-4884-b0fe-0eb013b22282")
 			(effects
 				(font
 					(size 1 1)
@@ -4472,7 +4472,7 @@
 		(property "Value" "LM7805_TO220"
 			(at 2.54 2.2 0)
 			(layer "F.Fab")
-			(uuid "59d49e35-5d8e-4baa-a0f0-2a9a04b7af07")
+			(uuid "ccc2bc94-3c7c-49b4-b12a-8c2bca42282c")
 			(effects
 				(font
 					(size 1 1)
@@ -4484,7 +4484,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e9cbde4-2f80-48d2-8cc7-17b1e093da78")
+			(uuid "623b8f9e-6446-4c25-ae74-c9c845c04fd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4495,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac755416-e7ca-4c6f-ac75-2925b02de45a")
+			(uuid "2aafb731-4e76-42fc-8ffb-69b7ffc92184")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,16 +4705,173 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 28.15 44.7)
-		(end 63.2 98)
+	(gr_arc
+		(start 30 46.25)
+		(mid 30.292893 45.542893)
+		(end 31 45.25)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "cfa32a5e-09f6-49e3-abce-d6cb1bc22934")
+		(uuid "4308a723-c8be-4e7e-ab0e-43285dfd41b7")
+	)
+	(gr_line
+		(start 30 96.75)
+		(end 30 46.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7500af1d-a62f-4c42-ab5c-33d69e7d9bed")
+	)
+	(gr_arc
+		(start 31 97.75)
+		(mid 30.292893 97.457107)
+		(end 30 96.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd03ac75-ef19-4603-b210-be0d359f44f2")
+	)
+	(gr_line
+		(start 56.25 53.5)
+		(end 56.25 89.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2dad3ea-4491-426c-8594-1e2ea26f9526")
+	)
+	(gr_arc
+		(start 56.25 53.5)
+		(mid 56.68934 52.43934)
+		(end 57.75 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b852ed13-b875-4678-be9e-602ddc6700a6")
+	)
+	(gr_arc
+		(start 57.75 91)
+		(mid 56.68934 90.56066)
+		(end 56.25 89.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3acf7a04-c0a2-4e49-9bea-d1d473cc0877")
+	)
+	(gr_line
+		(start 62.25 45.25)
+		(end 31 45.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c0f857b-d435-45c0-b1ad-7804dd5f25d1")
+	)
+	(gr_arc
+		(start 62.25 45.25)
+		(mid 62.957107 45.542893)
+		(end 63.25 46.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8160b266-ae3a-4c62-837e-49589cff0903")
+	)
+	(gr_line
+		(start 62.25 52)
+		(end 57.75 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c94c6585-0bd7-4568-afa9-5fbf83b49411")
+	)
+	(gr_line
+		(start 62.25 91)
+		(end 57.75 91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9daba271-eb99-4003-b331-10e3feb23052")
+	)
+	(gr_arc
+		(start 62.25 91)
+		(mid 62.957107 91.292893)
+		(end 63.25 92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "75a63f08-50fb-45df-aba3-45cb16e6226a")
+	)
+	(gr_line
+		(start 62.25 97.75)
+		(end 31 97.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d0970c8a-1477-4899-a15f-09f014d2e07d")
+	)
+	(gr_line
+		(start 63.25 46.25)
+		(end 63.25 51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "28711935-1cbb-4057-a843-0958a324fe77")
+	)
+	(gr_arc
+		(start 63.25 51)
+		(mid 62.957107 51.707107)
+		(end 62.25 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d286d8b-e2c6-4e81-b2e6-56e9adfb38d0")
+	)
+	(gr_arc
+		(start 63.25 96.75)
+		(mid 62.957107 97.457107)
+		(end 62.25 97.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1852fc79-aeb3-473b-aa57-c10dd5e18768")
+	)
+	(gr_line
+		(start 63.25 96.75)
+		(end 63.25 92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ccd66c89-5e53-41a9-8c64-b07ffef9ebcf")
 	)
 	(embedded_fonts no)
 )
