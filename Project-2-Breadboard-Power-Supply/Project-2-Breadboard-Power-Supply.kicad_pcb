@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1384,13 +1385,13 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "2d0d2811-3fce-4ab1-be4c-0fc231396bad")
-		(at 31.49 54.5)
+		(at 34 54.5 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C2"
 			(at 1.25 -2.05 0)
 			(layer "F.SilkS")
-			(uuid "677b0f8b-80f5-4c12-b03f-7bc7ba24741f")
+			(uuid "ee96cd97-ed5f-43e0-a823-149960a74295")
 			(effects
 				(font
 					(size 1 1)
@@ -1401,7 +1402,7 @@
 		(property "Value" "0.1u"
 			(at 1.25 2.05 0)
 			(layer "F.Fab")
-			(uuid "9b5cd10b-8b13-4d21-b84f-b3967021c9a5")
+			(uuid "12291d9c-6ae7-40fc-a83a-b9d2228d024b")
 			(effects
 				(font
 					(size 1 1)
@@ -1413,7 +1414,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5accfb6-3d57-431a-b90c-88791d6d8543")
+			(uuid "75c2b1db-03ab-4e57-a6bb-a236924dabdb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1425,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93aa2f2b-0e3a-4cda-9d5d-f7336f078e84")
+			(uuid "cc76dba4-c0a2-4cd1-a70f-f2d3b4e89106")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1445,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1457,7 +1458,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1482,16 +1483,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.485 -0.92)
-			(end 2.015 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c70beb85-007c-42b6-9687-444e9c32aabb")
-		)
-		(fp_line
 			(start 2.015 0.92)
 			(end 0.485 0.92)
 			(stroke
@@ -1500,6 +1491,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c50320d1-eea2-4cbd-9a30-d00a19d52221")
+		)
+		(fp_line
+			(start 0.485 -0.92)
+			(end 2.015 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c70beb85-007c-42b6-9687-444e9c32aabb")
 		)
 		(fp_rect
 			(start -1.05 -1.05)
@@ -1535,7 +1536,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1545,7 +1546,7 @@
 			(uuid "b388fb99-f862-4a1a-9340-79b2fad5dfe4")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3097,7 +3098,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "a1e1efed-8b16-4767-8a82-258c7975645e")
 		(at 54.81 65.5 180)
@@ -3106,7 +3106,7 @@
 		(property "Reference" "R1"
 			(at 3.81 -1.92 0)
 			(layer "F.SilkS")
-			(uuid "f59beec1-56ef-4dc7-937e-78a2fe201baf")
+			(uuid "f0a2024b-44bb-4885-9bb3-aeeb432d4687")
 			(effects
 				(font
 					(size 1 1)
@@ -3117,7 +3117,7 @@
 		(property "Value" "330"
 			(at 3.81 1.92 0)
 			(layer "F.Fab")
-			(uuid "a61db5bb-96eb-4da2-ae62-9bea0b1bd228")
+			(uuid "be02c890-9479-41a5-b2ef-bba70a6b35b7")
 			(effects
 				(font
 					(size 1 1)
@@ -3129,7 +3129,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9964146d-9d09-4b94-b84b-8cc0f0a2d12e")
+			(uuid "6add4230-f6e2-49b6-adff-b4f8e9bee761")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3140,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51a0c0e5-675f-4645-bc16-254565914044")
+			(uuid "490563fc-f336-4d8a-9f88-b43a3adbcbb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,6 +4872,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ccd66c89-5e53-41a9-8c64-b07ffef9ebcf")
+	)
+	(segment
+		(start 38.862 49.638)
+		(end 34 54.5)
+		(width 0.35)
+		(layer "F.Cu")
+		(net "/5V_net")
+		(uuid "c6abb8a8-e05d-488f-bf89-1097068d95e4")
+	)
+	(segment
+		(start 54.81 68.74)
+		(end 52.55 71)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "6a1d85d7-bc7a-413d-b78c-6cea3373a597")
+	)
+	(segment
+		(start 54.81 65.5)
+		(end 54.81 68.74)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "7cf326d9-53d9-4286-bd4a-e211716b7c3c")
 	)
 	(embedded_fonts no)
 )
