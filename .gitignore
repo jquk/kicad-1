@@ -49,6 +49,7 @@ fp-info-cache
 *.xln
 manufacturing/
 gerber_files/
+BOM/
 *.zip
 
 # Other Kicad settings and plugins related data
