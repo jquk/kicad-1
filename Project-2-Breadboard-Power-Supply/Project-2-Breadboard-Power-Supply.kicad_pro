@@ -576,6 +576,12 @@
       "/5V_net": [
         "power_output"
       ],
+      "/PWR_OUT_1": [
+        "power_output"
+      ],
+      "/PWR_OUT_2": [
+        "power_output"
+      ],
       "/PWR_input": [
         "power_input"
       ],
@@ -597,12 +603,8 @@
         "pattern": "/5V*"
       },
       {
-        "netclass": "power_input",
-        "pattern": "/PWR_input*"
-      },
-      {
         "netclass": "power_output",
-        "pattern": "/PWR_output*"
+        "pattern": "/PWR_OUT*"
       }
     ]
   },

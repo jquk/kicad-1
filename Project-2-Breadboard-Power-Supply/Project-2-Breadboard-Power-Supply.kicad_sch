@@ -2989,7 +2989,7 @@
 			)
 		)
 	)
-	(label "PWR_output"
+	(label "PWR_OUT_1"
 		(at 161.29 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3179,7 +3179,7 @@
 			)
 		)
 	)
-	(label "PWR_output"
+	(label "PWR_OUT_2"
 		(at 162.56 95.25 180)
 		(fields_autoplaced yes)
 		(effects
