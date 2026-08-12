@@ -1846,6 +1846,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SOLAR_IN"
+		(exclude_from_sim no)
+		(at 46.99 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1da10807-4a2a-42a3-abfd-e71a01404296")
+	)
+	(text "ON/OFF"
+		(exclude_from_sim no)
+		(at 103.505 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2b675a4f-c4ee-4423-837f-0fbc6b18ad21")
+	)
 	(text "GND Digital, use to differentiate in circuits with both analog and digital components that need to separate ground paths to prevent noise from digital circuits that might affect sensitive analog circuits."
 		(exclude_from_sim no)
 		(at 197.485 90.805 0)
@@ -1856,6 +1880,30 @@
 			)
 		)
 		(uuid "36cb3095-1951-4f86-b516-30b59dd6c773")
+	)
+	(text "OUT"
+		(exclude_from_sim no)
+		(at 247.65 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a6ae0131-75ca-4fbf-bf70-d61abe366f83")
+	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 81.915 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f83d5403-0e24-46a7-bd21-d896c94307bb")
 	)
 	(junction
 		(at 223.52 81.28)
@@ -2947,6 +2995,36 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 158.75 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 158.75 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 158.75 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
