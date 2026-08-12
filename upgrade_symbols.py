@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 # Define the folder path containing your old Kicad symbol files that have '.dcm' and '.lib' extension
-input_path = None #"/path/to/the/kicad-library-symbols/"
+input_path = "/home/jose/ws/Kicad/lib/tiny-solar-snapeda.com/AP3015AKTR-G1"#"/path/to/the/kicad-library-symbols/"
 
 # Convert to a clean Path object if the string is populated
 input_path_object = Path(input_path) if input_path else None

@@ -2,27 +2,29 @@
 `https://www.elektormagazine.com/magazine/elektor-305/62009`
 
 ## Bill of Materials
-Resistors (0805, 0.125 W)
+Resistors (0805, 0.125 W):
+Use Kicad's standard library.
 - R1, R4 = 1 MΩ
 - R2 = 604 kΩ, 1%
 - R3 = 10 kΩ
 
 Capacitors
+Use Kicad's standard library.
 - C1 = 4.7 µF, 50 V, X7R (0805)
 - C2 = 22 µF, 10 V, X7R (1206)
 - C3 = 10 pF, 50 V, X7R (0805)
 
 Inductors
-- L1 = 10 µH, 680 mA
+- L1 = 10 µH, 680 mA        --> Snapeda.com: `https://www.snapeda.com/parts/ASPI-0630LR-100M-T15/Abracon/view-part/?ref=search&t=abracon%20ASPI-0630LR-100M-T15&ab_test_case=b`
 
 Semiconductors
-- D1, D2 = SS14 (DO-214AC)
-- IC1* = AP3015 or AP3015A
-- T1 = 2N7002 (SOT-23)
+- D1, D2 = SS14 (DO-214AC)  --> Snapeda.com: `https://www.snapeda.com/parts/SS14/ON/view-part/?ref=search&t=ss14&ab_test_case=b`
+- IC1* = AP3015 or AP3015A  --> Snapeda.com: `https://www.snapeda.com/parts/AP3015AKTR-G1/Diodes%20Inc./view-part/?ref=search&t=AP3015AKTR-G1&ab_test_case=b`
+- T1 = 2N7002 (SOT-23)      --> Standard Kicad library
 
 Miscellaneous
-- K1, K2, K3 = pin header, 1 row, 2 contacts, 2.54 mm pitch
-- K4 = pin header, 1 row, 2 contacts, right-angle, 2 mm pitch
+- K1, K2, K3 = pin header, 1 row, 2 contacts, 2.54 mm pitch   --> Standard Kicad library
+- K4 = pin header, 1 row, 2 contacts, right-angle, 2 mm pitch --> Standard Kicad library
 
 
 
