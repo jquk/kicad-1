@@ -1846,30 +1846,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SOLAR_IN"
-		(exclude_from_sim no)
-		(at 46.99 53.975 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "1da10807-4a2a-42a3-abfd-e71a01404296")
-	)
-	(text "ON/OFF"
-		(exclude_from_sim no)
-		(at 103.505 29.845 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "2b675a4f-c4ee-4423-837f-0fbc6b18ad21")
-	)
 	(text "GND Digital, use to differentiate in circuits with both analog and digital components that need to separate ground paths to prevent noise from digital circuits that might affect sensitive analog circuits."
 		(exclude_from_sim no)
 		(at 197.485 90.805 0)
@@ -1880,30 +1856,6 @@
 			)
 		)
 		(uuid "36cb3095-1951-4f86-b516-30b59dd6c773")
-	)
-	(text "OUT"
-		(exclude_from_sim no)
-		(at 247.65 53.975 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "a6ae0131-75ca-4fbf-bf70-d61abe366f83")
-	)
-	(text "BATTERY"
-		(exclude_from_sim no)
-		(at 81.915 55.245 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f83d5403-0e24-46a7-bd21-d896c94307bb")
 	)
 	(junction
 		(at 223.52 81.28)
@@ -2634,7 +2586,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "035ab835-b69f-452e-ad61-ed7457fba2f8")
 		(property "Reference" "J2"
 			(at 86.995 48.26 0)
@@ -2681,6 +2632,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 86.36 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Battery connector"
+			(at 78.105 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3134,7 +3095,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3664b2d5-a0d3-41a0-8491-1f4be776cd6f")
 		(property "Reference" "J4"
 			(at 53.975 48.26 0)
@@ -3181,6 +3141,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 53.34 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Solar connector"
+			(at 46.99 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3777,7 +3747,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "710f34ee-2828-4087-af3c-c5a262b0d1a8")
 		(property "Reference" "J3"
 			(at 105.41 32.3849 90)
@@ -3826,6 +3795,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 104.14 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "On/Off switch"
+			(at 104.14 31.115 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4345,7 +4324,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdaf258d-71cc-4532-b9eb-f74f4554b446")
 		(property "Reference" "J1"
 			(at 241.3 53.3399 0)
@@ -4394,6 +4372,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 240.03 55.88 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Power output"
+			(at 250.825 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -450,7 +450,7 @@
           "group_by": false,
           "label": "Purpose",
           "name": "Purpose",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
