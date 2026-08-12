@@ -1900,6 +1900,12 @@
 		(uuid "15d7a7b7-fa96-4baf-a19b-1166ffc2af9b")
 	)
 	(junction
+		(at 173.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "222740c7-9956-4eb5-94d0-8a73d751ce1a")
+	)
+	(junction
 		(at 223.52 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2069,6 +2075,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 58.42) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ee7027-c5c3-40cb-b58f-868832b4f360")
+	)
+	(wire
+		(pts
 			(xy 171.45 38.1) (xy 173.99 38.1)
 		)
 		(stroke
@@ -2106,6 +2122,16 @@
 			(type default)
 		)
 		(uuid "325960a6-5076-4a4a-8a72-73b96cffb841")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc57408-d899-4382-b043-fcc3e9109666")
 	)
 	(wire
 		(pts
@@ -2379,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 200.66 81.28)
+			(xy 162.56 81.28) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2516,6 +2542,39 @@
 			(type default)
 		)
 		(uuid "fbdf5c3c-63dd-4278-a3ef-e16df38cb92c")
+	)
+	(label "SOLAR_P"
+		(at 58.42 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "15a32b5d-2056-4337-b22c-787df91f7980")
+	)
+	(label "OUT_P"
+		(at 234.95 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e429907-9988-4fda-bff2-18e17fc9b303")
+	)
+	(label "BAT_P"
+		(at 91.44 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b333e263-36ff-4dcc-be72-aa7a1cba373c")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
