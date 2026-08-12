@@ -1607,7 +1607,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 64.77 0)
+		(at 86.36 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1618,7 +1618,7 @@
 		(fields_autoplaced yes)
 		(uuid "035ab835-b69f-452e-ad61-ed7457fba2f8")
 		(property "Reference" "J2"
-			(at 155.575 59.69 0)
+			(at 86.995 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 155.575 62.23 0)
+			(at 86.995 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1638,7 +1638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 64.77 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,7 +1649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 64.77 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,7 +1660,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 64.77 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1687,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 50.8 0)
+		(at 118.11 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1698,7 +1698,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e87f0ba-0719-4d41-9ddb-c4552ab2df86")
 		(property "Reference" "R3"
-			(at 86.36 49.5299 0)
+			(at 120.65 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1709,7 +1709,7 @@
 			)
 		)
 		(property "Value" "10 kOhm"
-			(at 86.36 52.0699 0)
+			(at 120.65 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1720,7 +1720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.042 50.8 90)
+			(at 116.332 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 50.8 0)
+			(at 118.11 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 50.8 0)
+			(at 118.11 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1769,7 @@
 	)
 	(symbol
 		(lib_id "ASPI-0630LR-100M-T15:ASPI-0630LR-100M-T15")
-		(at 200.66 90.17 0)
+		(at 158.75 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1780,7 +1780,7 @@
 		(fields_autoplaced yes)
 		(uuid "17959fc0-c9d6-427a-bc68-d468888b4fed")
 		(property "Reference" "L1"
-			(at 200.66 83.82 0)
+			(at 158.75 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1790,7 +1790,7 @@
 			)
 		)
 		(property "Value" "ASPI-0630LR-100M-T15"
-			(at 200.66 86.36 0)
+			(at 158.75 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1800,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" "ASPI-0630LR-100M-T15:IND_ASPI-0630LR-100M-T15"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1823,7 @@
 			)
 		)
 		(property "Description" "10 µH Shielded Molded Inductor 4 A 68mOhm Max Nonstandard"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "MF" "Abracon"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +1847,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Package" "Nonstandard Abracon"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ASPI-0630LR-100M-T15/Abracon/view-part/?ref=eda"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1907,7 +1907,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ASPI-0630LR-100M-T15/Abracon/view-part/?ref=snap"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(property "MP" "ASPI-0630LR-100M-T15"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +1943,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=229501&manufacturer=Abracon&part_name=ASPI-0630LR-100M-T15&search_term=abracon aspi-0630lr-100m-t15"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1955,7 +1955,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Abracon"
-			(at 200.66 90.17 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1995,7 +1995,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 71.12 0)
+		(at 215.9 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2006,7 +2006,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f357ab2-b802-4fd9-97f6-285a1bf67d49")
 		(property "Reference" "C3"
-			(at 86.36 69.8499 0)
+			(at 219.71 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,7 +2017,7 @@
 			)
 		)
 		(property "Value" "10 pF, 50 V, X7R (0805)"
-			(at 86.36 72.3899 0)
+			(at 219.71 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.5152 74.93 0)
+			(at 216.8652 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 71.12 0)
+			(at 215.9 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2050,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 71.12 0)
+			(at 215.9 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 156.21 88.9 0)
+		(at 53.34 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2088,7 +2088,7 @@
 		(fields_autoplaced yes)
 		(uuid "3664b2d5-a0d3-41a0-8491-1f4be776cd6f")
 		(property "Reference" "J4"
-			(at 156.845 83.82 0)
+			(at 53.975 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 156.845 86.36 0)
+			(at 53.975 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 88.9 0)
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 88.9 0)
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 156.21 88.9 0)
+			(at 53.34 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2157,7 @@
 	)
 	(symbol
 		(lib_id "AP3015AKTR-G1:AP3015AKTR-G1")
-		(at 57.15 124.46 0)
+		(at 158.75 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2168,7 +2168,7 @@
 		(fields_autoplaced yes)
 		(uuid "395e3220-eb62-4ec2-9c28-24639734ebbc")
 		(property "Reference" "U1"
-			(at 57.15 111.76 0)
+			(at 158.75 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2178,7 +2178,7 @@
 			)
 		)
 		(property "Value" "AP3015AKTR-G1"
-			(at 57.15 114.3 0)
+			(at 158.75 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2188,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" "AP3015AKTR-G1:SOT95P280X145-5N"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Description" "uPower Step-Up DC-DC Converter SOT23-5 | Diodes Inc AP3015AKTR-G1"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "MF" "Diodes Inc."
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5 Diodes Inc."
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2259,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AP3015AKTR-G1/Diodes+Inc./view-part/?ref=eda"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2295,7 +2295,7 @@
 			)
 		)
 		(property "PARTREV" "1.4"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2307,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP3015AKTR-G1/Diodes+Inc./view-part/?ref=snap"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2319,7 @@
 			)
 		)
 		(property "MP" "AP3015AKTR-G1"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490813&manufacturer=Diodes Inc.&part_name=AP3015AKTR-G1&search_term=ap3015aktr-g1"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2355,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc"
-			(at 57.15 124.46 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2392,7 +2392,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 196.85 52.07 0)
+		(at 186.69 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2403,7 +2403,7 @@
 		(fields_autoplaced yes)
 		(uuid "457455e4-c927-4faa-b30e-edd9ab79fea6")
 		(property "Reference" "D1"
-			(at 196.5325 45.72 0)
+			(at 187.0075 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2413,7 +2413,7 @@
 			)
 		)
 		(property "Value" "SS14 (DO-214AC)"
-			(at 196.5325 48.26 0)
+			(at 187.0075 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "Footprint" "SS14:DO-214AC"
-			(at 196.85 56.515 0)
+			(at 186.69 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 196.85 52.07 0)
+			(at 186.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,7 +2445,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 196.85 52.07 0)
+			(at 186.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +2472,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 53.34 95.25 0)
+		(at 115.57 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2483,7 +2483,7 @@
 		(fields_autoplaced yes)
 		(uuid "600b534d-eb7a-4ab4-8b89-b1c7fe8bc6f1")
 		(property "Reference" "Q1"
-			(at 59.69 93.9799 0)
+			(at 121.92 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 59.69 96.5199 0)
+			(at 121.92 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 58.42 97.155 0)
+			(at 120.65 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2518,7 +2518,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 58.42 99.06 0)
+			(at 120.65 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2530,7 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 53.34 95.25 0)
+			(at 115.57 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 50.8 0)
+		(at 64.77 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2571,7 +2571,7 @@
 		(fields_autoplaced yes)
 		(uuid "6447528b-1b35-4d3d-842b-30e8797c6e52")
 		(property "Reference" "R4"
-			(at 102.87 49.5299 0)
+			(at 67.31 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2582,7 +2582,7 @@
 			)
 		)
 		(property "Value" "1 MOhm"
-			(at 102.87 52.0699 0)
+			(at 67.31 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.552 50.8 90)
+			(at 62.992 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 50.8 0)
+			(at 64.77 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 50.8 0)
+			(at 64.77 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 77.47 0)
+		(at 104.14 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2653,27 +2653,29 @@
 		(fields_autoplaced yes)
 		(uuid "710f34ee-2828-4087-af3c-c5a262b0d1a8")
 		(property "Reference" "J3"
-			(at 155.575 72.39 0)
+			(at 105.41 33.6549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 155.575 74.93 0)
+			(at 105.41 36.1949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 77.47 0)
+			(at 104.14 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 77.47 0)
+			(at 104.14 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +2697,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 77.47 0)
+			(at 104.14 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2724,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 50.8 0)
+		(at 200.66 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2733,7 +2735,7 @@
 		(fields_autoplaced yes)
 		(uuid "73569cbd-2e02-4dd9-9b92-d74f3d91bb33")
 		(property "Reference" "R2"
-			(at 71.12 49.5299 0)
+			(at 203.2 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2744,7 +2746,7 @@
 			)
 		)
 		(property "Value" "604 kOhm, 1%"
-			(at 71.12 52.0699 0)
+			(at 203.2 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2755,7 +2757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.802 50.8 90)
+			(at 198.882 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 50.8 0)
+			(at 200.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +2779,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 50.8 0)
+			(at 200.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,7 +2806,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 196.85 66.04 0)
+		(at 69.85 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2815,7 +2817,7 @@
 		(fields_autoplaced yes)
 		(uuid "7eb5a6e2-69ca-4d46-8685-30877b1965ba")
 		(property "Reference" "D2"
-			(at 196.5325 59.69 0)
+			(at 70.1675 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2825,7 +2827,7 @@
 			)
 		)
 		(property "Value" "SS14 (DO-214AC)"
-			(at 196.5325 62.23 0)
+			(at 70.1675 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2835,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "SS14:DO-214AC"
-			(at 196.85 70.485 0)
+			(at 69.85 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +2848,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 196.85 66.04 0)
+			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +2859,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 196.85 66.04 0)
+			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +2886,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 71.12 0)
+		(at 223.52 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2895,7 +2897,7 @@
 		(fields_autoplaced yes)
 		(uuid "a669a17b-1b53-452c-886b-7f060d356ce2")
 		(property "Reference" "C2"
-			(at 72.39 69.8499 0)
+			(at 227.33 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2906,7 +2908,7 @@
 			)
 		)
 		(property "Value" "22 uF, 10 V, X7R (1206)"
-			(at 72.39 72.3899 0)
+			(at 227.33 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2917,7 +2919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 74.93 0)
+			(at 224.4852 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 71.12 0)
+			(at 223.52 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +2941,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 71.12 0)
+			(at 223.52 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,7 +2968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 50.8 0)
+		(at 200.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2977,7 +2979,7 @@
 		(fields_autoplaced yes)
 		(uuid "b770a5d0-07e2-495c-923d-674f9bf05e94")
 		(property "Reference" "R1"
-			(at 57.15 49.5299 0)
+			(at 203.2 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2988,7 +2990,7 @@
 			)
 		)
 		(property "Value" "1 MOhm"
-			(at 57.15 52.0699 0)
+			(at 203.2 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2999,7 +3001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.832 50.8 90)
+			(at 198.882 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3010,7 +3012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 50.8 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +3023,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 50.8 0)
+			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3050,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 71.12 0)
+		(at 134.62 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3059,7 +3061,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfa15f3f-0000-4062-90ae-c9d20cf39b82")
 		(property "Reference" "C1"
-			(at 57.15 69.8499 0)
+			(at 138.43 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3070,7 +3072,7 @@
 			)
 		)
 		(property "Value" "4.7 uF, 50 V, X7R (0805)"
-			(at 57.15 72.3899 0)
+			(at 138.43 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3081,7 +3083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.3052 74.93 0)
+			(at 135.5852 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,7 +3094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 71.12 0)
+			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3105,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 71.12 0)
+			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3130,7 +3132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 52.07 0)
+		(at 240.03 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3141,27 +3143,29 @@
 		(fields_autoplaced yes)
 		(uuid "fdaf258d-71cc-4532-b9eb-f74f4554b446")
 		(property "Reference" "J1"
-			(at 155.575 46.99 0)
+			(at 241.3 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 155.575 49.53 0)
+			(at 241.3 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 52.07 0)
+			(at 240.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +3176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 52.07 0)
+			(at 240.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 52.07 0)
+			(at 240.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
