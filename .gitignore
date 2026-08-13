@@ -48,7 +48,9 @@ fp-info-cache
 *.drl
 *.xln
 manufacturing/
-gerber_files/
+geriber_files/
+gerber/
+dfm/
 BOM/
 *.zip
 
