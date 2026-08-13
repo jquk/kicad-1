@@ -4915,5 +4915,32 @@
 		(net "/BAT_P")
 		(uuid "e9eb9338-89c0-447c-bcc6-6980b2e6252e")
 	)
+	(zone
+		(net "GNDD")
+		(layer "B.Cu")
+		(uuid "1f0bb2b4-193b-4e52-bd34-38a6ee3390d7")
+		(name "GNDD_zone")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(mode hatch)
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+			(hatch_thickness 1)
+			(hatch_gap 1.5)
+			(hatch_orientation 0)
+			(hatch_border_algorithm hatch_thickness)
+			(hatch_min_hole_area 0.15)
+		)
+		(polygon
+			(pts
+				(xy 41.2 83.75) (xy 41.2 101.75) (xy 41.25 101.8) (xy 75 101.8) (xy 75.15 101.65) (xy 75.15 83.75)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
