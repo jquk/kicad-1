@@ -3738,7 +3738,7 @@
 		(uuid "cba966d4-cfac-46bd-b856-e4eca1d969a9")
 		(at 67.75 89.25 -90)
 		(property "Reference" "L1"
-			(at -3.05 -4.2064 180)
+			(at -3.05 -4.2064 0)
 			(layer "F.SilkS")
 			(uuid "a439222e-c3b0-401f-8a18-fb134a71e537")
 			(effects
@@ -3786,7 +3786,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6489eff3-d53f-46ab-a818-bea2b4789c3e")
+			(uuid "6a087f4a-74bd-4a93-8aee-b2bf6c57d113")
 			(effects
 				(font
 					(size 1 1)
@@ -3929,7 +3929,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a087f4a-74bd-4a93-8aee-b2bf6c57d113")
+			(uuid "6489eff3-d53f-46ab-a818-bea2b4789c3e")
 			(effects
 				(font
 					(size 1 1)
@@ -3979,12 +3979,6 @@
 		(path "/17959fc0-c9d6-427a-bc68-d468888b4fed")
 		(sheetname "/")
 		(sheetfile "Project-3-Tiny-Solar-Supply.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4104,6 +4098,66 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "f3e08125-5304-4276-a4a1-a4aaa12a4685")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "c0b32062-bc54-4353-9449-a37aa5b86d62")
+			(hatch full 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "/")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 64.45 85.7) (xy 64.45 92.8) (xy 65.7 92.8) (xy 65.75 92.75) (xy 65.75 85.7)
+				)
+			)
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "e63261fd-40f1-4b79-97b2-14ae6b1a1fce")
+			(hatch full 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "/")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 69.75 92.75) (xy 69.8 92.8) (xy 71.05 92.8) (xy 71.05 85.7) (xy 69.8 85.7) (xy 69.75 85.75)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
