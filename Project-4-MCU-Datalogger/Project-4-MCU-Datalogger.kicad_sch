@@ -2,8 +2,14 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid fa4ca382-2a17-4dca-8e37-297d44f39d21)
+	(uuid "fa4ca382-2a17-4dca-8e37-297d44f39d21")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2026-07-30")
+		(rev "1")
+		(company "jquk")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
