@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ATMEGA328P-AU") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/mcu-datalogger-snapeda.com/ATMEGA328P-AU") (options "") (descr ""))
+	(lib (name "DS1337S_") (type "KiCad") (uri "/home/jose/ws/Kicad/lib/mcu-datalogger-snapeda.com/DS1337S_") (options "") (descr ""))
+)
