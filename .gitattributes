@@ -1,0 +1,2 @@
+Project-4-MCU-Datalogger.kicad_pcb merge=pcb
+# The line above tells git to exclude PCB files from merge operations
