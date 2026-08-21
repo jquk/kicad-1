@@ -3997,7 +3997,7 @@
 		)
 		(uuid "0d562217-2976-49be-a71b-b69f3b8e0614")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 52.07 60.96 180)
 		(effects
 			(font
@@ -4017,7 +4017,7 @@
 		)
 		(uuid "119d8764-504e-47f6-b8b9-d49b26e20d07")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 120.65 147.32 180)
 		(effects
 			(font
@@ -4077,7 +4077,7 @@
 		)
 		(uuid "1f3bbe1f-6fed-4dea-bcd8-741b024c97af")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 58.42 139.7 0)
 		(effects
 			(font
@@ -4157,7 +4157,7 @@
 		)
 		(uuid "33b1ba7b-5d1e-4e84-bfea-90c66c5ca456")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 207.01 77.47 180)
 		(effects
 			(font
@@ -4187,16 +4187,6 @@
 		)
 		(uuid "447f7a59-d37f-4315-bc5e-a53de8b63b2f")
 	)
-	(label "SCK"
-		(at 187.96 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46501f80-d107-4cea-8e30-5b47f4068f09")
-	)
 	(label "Vcc"
 		(at 38.1 139.7 180)
 		(effects
@@ -4206,6 +4196,16 @@
 			(justify right bottom)
 		)
 		(uuid "49b0dc47-f05f-4aa2-bc3c-5f7757a3a326")
+	)
+	(label "SCK"
+		(at 187.96 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61c642cf-8978-4597-a43a-e8342bd07292")
 	)
 	(label "SDA"
 		(at 58.42 137.16 0)
@@ -4218,7 +4218,7 @@
 		(uuid "72bbdb51-7452-4f08-891c-0d63dbe36038")
 	)
 	(label "RESET"
-		(at 187.96 154.94 180)
+		(at 187.96 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4236,6 +4236,16 @@
 			(justify left bottom)
 		)
 		(uuid "846f2c07-66be-4d14-a382-42d524d2eb30")
+	)
+	(label "SCL"
+		(at 187.96 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d29a7ff-966e-49aa-8e12-8d16cff741da")
 	)
 	(label "SDA"
 		(at 97.79 137.16 0)
@@ -4357,7 +4367,7 @@
 		)
 		(uuid "be8ae862-4c1c-4e4a-8781-468b03b2397e")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 97.79 139.7 0)
 		(effects
 			(font
@@ -8244,7 +8254,7 @@
 			)
 		)
 		(pin "RESET" passive
-			(at 187.96 154.94 180)
+			(at 187.96 157.48 180)
 			(uuid "8189177a-563d-4480-81be-18aa09fa074c")
 			(effects
 				(font
@@ -8264,7 +8274,7 @@
 			)
 		)
 		(pin "SCK" passive
-			(at 187.96 134.62 180)
+			(at 187.96 152.4 180)
 			(uuid "3b6aa26c-d980-4cf4-9206-2a57a407486a")
 			(effects
 				(font
@@ -8296,6 +8306,16 @@
 		(pin "Vcc" passive
 			(at 187.96 121.92 180)
 			(uuid "370b12c7-e671-44b5-8196-6d6ba6833748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" passive
+			(at 187.96 134.62 180)
+			(uuid "6a55dfbf-9c91-4268-a678-082e79dac937")
 			(effects
 				(font
 					(size 1.27 1.27)
