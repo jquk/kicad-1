@@ -3659,11 +3659,11 @@
 		(layer "F.Cu")
 		(uuid "694af10d-9695-4550-a00c-2274975a7b8a")
 		(at 87.25 68)
-		(property "Reference" "G***"
+		(property "Reference" "jquk-logo"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fdb28b91-9c2d-449e-9c69-0b92c514baf4")
+			(uuid "11d263e6-0114-4726-abdf-b43092e26cdb")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -3675,7 +3675,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0a3d900e-abc2-4d19-aced-a77dd6dd818f")
+			(uuid "5065b8b9-0d0a-4f62-be2e-be0bf0328c27")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -3687,7 +3687,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c92074cc-fcb5-468b-8a51-fc6aae6e3037")
+			(uuid "6627091e-8f9a-443c-97ec-84ed94709c37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3698,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9f15683-ed9e-418c-aaa4-b0e491394910")
+			(uuid "1eda5f72-1a99-438e-b8f0-ceee79b38414")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8830,7 @@
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "5843e5c3-71e6-4738-b83d-490e196833a6")
+			(uuid "2e94054a-64c8-47d7-8ca4-79b6c9be22ac")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8843,7 +8843,7 @@
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "846d5146-8845-4254-9f8a-ee680beec5ab")
+			(uuid "1dac4e87-8c41-4433-b11d-85089ab96783")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8856,7 +8856,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f3c8e42b-caa4-4ae9-9630-993fb9060648")
+			(uuid "b3cd3065-fb98-41dc-b6fa-c3cbc13dd207")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +8868,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cc642ae2-100b-42fb-84bc-43245d2529c4")
+			(uuid "e7940cee-dbd0-49a7-9b22-e9ca71b8cdce")
 			(effects
 				(font
 					(size 1.27 1.27)
